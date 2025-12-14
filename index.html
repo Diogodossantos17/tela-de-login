@@ -19,9 +19,22 @@
             <div id="form">
                 <h1>Login</h1>
 
-                <p>Seja bem vindo ao Website da Kikumbanation. Faça login na sua conta e acesse os seus conteúdos. </p>
+                <p>Seja bem vindo (a) ao Website da Kikumbanation. Faça login na sua conta e acesse os seus conteúdos. </p>
                 <form action="login.php" method="post">
+                    <div class="campo">
+                        <label for="ilogin">Login
+                            <input type="email" name="email" id="ilogin" placeholder="seu email" autocomplete="on" required maxlength="30">
+                        </label>
+                    </div> <br> <br>
+                    
+                    <div class="campo">
+                        <label for="isenha"> Senha
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="15">
+                    </label>
+                    </div>
 
+                    <input type="submit" value="Logar"> <br> <br>
+                    <a href="#">Esqueci a senha.</a> <i class="materiaç-icons"></i>
                     
                 </form>
             </div>

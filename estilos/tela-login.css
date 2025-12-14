@@ -63,3 +63,17 @@ section#login>div#form>p{
     text-align: justify;
     text-indent: 0px;
 }
+
+div#form >h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#form>p{
+    font-size: 0.8em;
+    text-align: center;
+}
+
+div.campo{
+    text-align: center;
+}
